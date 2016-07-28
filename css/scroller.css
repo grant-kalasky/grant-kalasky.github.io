@@ -1,16 +1,4 @@
-* {
-   margin: 0px;
-   padding: 0px;
-   font-weight: 200;
-   font-family: segoe ui, helvetica neue, helvetica, arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
-
-body {
-   background: #fafafa;
-}  
-
-.container {
+ header .container {
    width: 210px;
    height: 40px;
    position: fixed;
@@ -38,7 +26,7 @@ p {
 .scroller span {
    display: block; 
    font-size: 160%;
-   color: #222;
+   color: #424242;
 }
 
 .scroller .inner {
