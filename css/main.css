@@ -1,9 +1,13 @@
+h1 {
+	font-family: 'Frank Ruhl Libre', serif;
+}
+
 body {
 
 }
 
 html {
-
+	background-color: #FAFAFA;
 }
 
 header {
@@ -13,7 +17,11 @@ header {
 }
 
 header #name {
-	font-family: 'Frank Ruhl Libre', sans-serif;
+	font-family: 'Frank Ruhl Libre', serif;
 	font-size: 70px;
 	color: #212121;
+}
+
+.scroller .inner {
+	font-family: 'Hind Vadodara', sans-serif;
 }
