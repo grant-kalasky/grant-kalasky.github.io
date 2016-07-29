@@ -78,8 +78,9 @@ header #name {
 	color: #212121;
 	margin: 0;
 	padding-left: 18px;
+}
 
-	&:before {
+header #name:before {
         border-top: 7px solid #607D8B;
         content:"";
         margin: 0 auto; /* this centers the line to the full width specified */
@@ -88,13 +89,6 @@ header #name {
         width: 95%;
         z-index: -1;
     }
-
-    span { 
-        /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
-        background: #fff; 
-        padding: 0 15px; 
-    }
-}
 
 .scroller .inner {
 	font-family: 'Hind Vadodara', sans-serif;
