@@ -52,14 +52,23 @@ a{
 /* HEADER */
 header {
 	background-color: #FAFAFA;
-	padding-top: 150px;
-	padding-bottom: 25px;
+	width: 100%;
+	height: 0;
+	padding-top: 70px;
+	padding-bottom: 200px;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 header #name {
 	font-family: 'Frank Ruhl Libre', serif;
-	font-size: 70px;
+	font-size: 110px;
 	color: #212121;
+	margin: 0;
+	padding-left: 100px;
 }
 
 .scroller .inner {
