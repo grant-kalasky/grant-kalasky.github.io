@@ -80,7 +80,7 @@ header #name {
 	padding-left: 18px;
 }
 
-header:before {
+header #name:before {
     border-top: 7px solid #607D8B;
     content:"";
     margin: 0; /* this centers the line to the full width specified */
