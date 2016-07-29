@@ -13,7 +13,7 @@ $('.scroll').animate({ scrollTop: curIndex * $('.scroll span').height() + 'px' }
   } else {
     curIndex++;
   }
-  setTimeout(function(){ spin() }, 2000);
+  setTimeout(function(){ spin() }, 900);
 });
 }
 });
