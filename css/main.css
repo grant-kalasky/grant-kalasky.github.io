@@ -85,13 +85,14 @@ header #name:before {
     content:"";
     margin: 0; /* this centers the line to the full width specified */
     position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
-    top: 31%; left: 18px; right: 0; bottom: 0;
+    top: 31%; left: 18px; right: 0;
     width: 86%;
     z-index: -1;
 }
 
 header #name span {
-
+	background: #212121;
+	padding: 0 15px;
 }
 
 .scroller .inner {
