@@ -95,15 +95,41 @@ header #name span {
 }
 
 header .container {
-	width: 210px;
-	height: 40px;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	margin-left: -105px;
-	margin-top: -20px;
+   width: 300px;
+   height: 25px;
+   left: 50%;
+   top: 50%;
+   position: absolute;
+   margin-top: -15px;
+   margin-left: -150px;
 }
 
+header p {
+	font-family: 'Hind Vadodara', sans-serif;
+   float: left;
+   font-size: 120%;
+   line-height: 25px;
+   display: block;
+   margin-right: 6px;
+   color: #999;
+}
+
+header span {
+	font-family: 'Hind Vadodara', sans-serif;
+	display: block;
+	line-height: 25px;
+	font-size: 120%;
+}
+
+.scroller {
+   overflow-y: hidden;
+   height: 25px;
+   float: left;
+}
+
+
+/*
+//////
 header p {
 	font-family: 'Hind Vadodara', sans-serif;
 	float: left; 
@@ -140,3 +166,4 @@ header p {
    90%  {margin-top: -80px;}
    100% {margin-top: 0px;}
 }
+*/
