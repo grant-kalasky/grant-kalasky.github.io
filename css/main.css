@@ -23,6 +23,16 @@ a{
 	margin: 0;
 }
 
+#main-navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#main-navbar li {
+	display: inline;
+}
+
 #main-navbar a{
 	color: #212121;
 	font-size: 20px;
