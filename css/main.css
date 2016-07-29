@@ -80,15 +80,19 @@ header #name {
 	padding-left: 18px;
 }
 
-header #name:before {
-        border-top: 7px solid #607D8B;
-        content:"";
-        margin: 0 auto; /* this centers the line to the full width specified */
-        position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
-        top: 50%; left: 0; right: 0; bottom: 0;
-        width: 95%;
-        z-index: -1;
-    }
+header:before {
+    border-top: 7px solid #607D8B;
+    content:"";
+    margin: 0; /* this centers the line to the full width specified */
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 31%; left: 18px; right: 0; bottom: 0;
+    width: 86%;
+    z-index: -1;
+}
+
+header #name span {
+
+}
 
 .scroller .inner {
 	font-family: 'Hind Vadodara', sans-serif;
