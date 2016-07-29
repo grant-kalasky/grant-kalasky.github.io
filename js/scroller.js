@@ -1,4 +1,5 @@
-var maxIndex = $('.scroll span').length,
+$(document).ready(function () {
+	var maxIndex = $('.scroll span').length,
     curIndex = 0;
 
 $(function(){
@@ -15,3 +16,5 @@ $('.scroll').animate({ scrollTop: curIndex * $('.scroll span').height() + 'px' }
   setTimeout(function(){ spin() }, 2000);
 });
 }
+});
+
