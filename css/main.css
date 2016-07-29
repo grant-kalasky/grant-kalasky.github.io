@@ -31,6 +31,7 @@ a{
 
 #main-navbar li {
 	display: inline;
+	margin: 15px;
 }
 
 #main-navbar a{
@@ -38,6 +39,7 @@ a{
 	font-size: 20px;
 	font-family: 'Hind Vadodara', sans-serif;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 
 #main-navbar .active > a{
@@ -56,7 +58,7 @@ a{
 
 #main-navbar li:hover{
 	margin-bottom: -1px;
-	border-bottom: 1px solid #607D8B;
+	border-bottom: 2px solid #607D8B;
 }
 
 /* HEADER */
@@ -64,17 +66,34 @@ header {
 	background-color: #FAFAFA;
 	width: 100%;
 	height: 0;
-	padding-top: 70px;
+	padding-top: 45px;
 	padding-bottom: 200px;
 
 }
 
 header #name {
 	font-family: 'Frank Ruhl Libre', serif;
-	font-size: 110px;
+	font-size: 140px;
+	font-weight: normal;
 	color: #212121;
 	margin: 0;
-	padding-left: 100px;
+	padding-left: 18px;
+
+	&:before {
+        border-top: 7px solid #607D8B;
+        content:"";
+        margin: 0 auto; /* this centers the line to the full width specified */
+        position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+        top: 50%; left: 0; right: 0; bottom: 0;
+        width: 95%;
+        z-index: -1;
+    }
+
+    span { 
+        /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+        background: #fff; 
+        padding: 0 15px; 
+    }
 }
 
 .scroller .inner {
