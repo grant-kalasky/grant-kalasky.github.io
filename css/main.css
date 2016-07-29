@@ -121,7 +121,7 @@ header span {
 	font-size: 120%;
 }
 
-.scroller {
+.scroll {
    overflow-y: hidden;
    height: 25px;
    float: left;
