@@ -94,7 +94,7 @@ header #name span {
 	padding: 0 15px;
 }
 
-header .container {
+header .wrapper {
    width: 300px;
    height: 25px;
    left: 50%;
