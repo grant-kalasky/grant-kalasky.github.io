@@ -145,7 +145,7 @@ section#about {
 	background-color: #CFD8DC;
 }
 
-p #about-bio {
+#about-bio {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 25px;
 	width: 60%;
