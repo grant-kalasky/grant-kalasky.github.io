@@ -1,5 +1,6 @@
 body {
-
+	margin-left: 0;
+	margin-right: 0;
 }
 
 html {
@@ -140,11 +141,11 @@ section h1 {
     margin: 0;
 }
 
-section #about {
+section#about {
 	background-color: #CFD8DC;
 }
 
-section #about p {
+p #about-bio {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 25px;
 	width: 60%;
