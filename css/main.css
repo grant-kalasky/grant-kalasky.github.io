@@ -162,4 +162,5 @@ section#about {
 	width: 300px;
 	height: 300px;
 	text-align: right;
+	display: inline;
 }
