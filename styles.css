@@ -6,6 +6,7 @@ Table of Content
 1. General Style Guide
 2. Homepage/About Me
 3. Projects
+4. Mobile Styling
 
 Accent color - Light red (#F15856)
 Imports:
@@ -25,6 +26,11 @@ h1, h2, h3, h4, p, a, li {
 
 h1, h2 {
 	font-weight: bold;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1.25;
 }
 
 p {
@@ -262,4 +268,70 @@ a {
 
 .numericcal-photo:hover .overlay {
 	opacity: .85;
+}
+
+
+
+/***************************
+		4. MOBILE STYLING 
+***************************/
+
+
+@media screen and (max-width: 640px) {
+	h2 {
+	  font-size: 1.625em;
+	  line-height: 1.15384615;
+	}
+
+	p {
+		font-size: 1em;
+		line-height: 1.111111;
+	}
+
+	/**** ABOUT ME ****/
+	#homepage-header {
+		padding: 20px 10px;
+		margin: 0;
+	}
+
+	.header-container {
+		padding: 0;
+		margin: 0 auto;
+		width: 90%;
+	}
+
+
+	/**** PROJECTS ****/
+	.projects-header {
+		padding: 90px 10px 20px 10px;
+		margin: 0 auto;
+		height: auto;
+	}
+
+	.projects-container {
+		padding: 20px 10px;
+		margin: 0 auto;
+	}
+
+	.projects-col {
+		height: auto;
+		width: auto;
+	}
+
+	.project-section p {
+		font-size: 1em;
+		line-height: 1.111111;
+	}
+
+	.project-section li {
+		font-size: 1em;
+		line-height: 1.111111;
+	}
+
+	/**** DOT LABS PROJECT ****/
+	.indv-project-container {
+		padding: 20px 10px;
+		margin: 0 auto;
+		width: 90%;
+	}
 }
