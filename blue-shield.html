@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blue Shield of California</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="icon" href="images/logo.png">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!-- NAVIGATION BAR -->
+	<div class="mast-head">
+		<div class="mast-head-container">
+			<nav class="nav-list">
+				<ul>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="index.html">About Me</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+	<div class="projects-banner">
+		<img src="projects/claims-and-benefits-banner-01.png">
+	</div>
+
+	<div class="indv-project-container">
+		<h1>Blue Shield of California - Claims and Benefits</h1>
+		<p>Product Design Intern, Jun - Aug 2017</p>
+
+		<div class="project-section">
+			<p>This past summer, I worked at Blue Shield as a product design intern on the Customer Experience team. It was an incredible learning opportunity being a part of a team that has begun to define design's role within Blue Shield. My internship consisted of two main projects - the <a href="blue-shield.html">Claims and Benefits experience redesign</a> and creating our <a href="bsc-dls.html">Design Language System</a>.</p>
+
+		</div>
+
+		<div class="project-section">
+			<h2>The Problem</h2>
+<!-- 
+			<p>There's no doubt that healthcare is extremely confusing for many. Indecipherable medical bills, alienating jargon, various treatment options. It begs the question: How might we make healthcare a more accessible and simple experience for everyone?</p> -->
+
+			<p>One of the most frustrating parts of the healthcare experience is paying medical bills. Trying to make sense of all the information involved in medical payments is a frustrating and discouraging exercise. We hoped to eliminate these frustrations for Blue Shield members by bringing clarity and simplicity to the Claims and Benefits experience.</p>
+
+			<!-- <p>The design lead of my team and I created an experience for Blue Shield members to view, sort, and understand their claims. With the goal of </p> -->
+		</div>
+
+		<div class="project-section">
+			<h2>Identifying Objectives</h2>
+
+			<p>Before diving into ideation, we sat down and reviewed data and user feedback that was collected by the marketing and engineering teams. This review uncovered some key findings that would guide our design decisions:</p>
+
+			<ul>
+				<li>Users found it difficult to tell how much they owed for a claim and where that figure came from</li>
+				<li>Users were skeptical of the "patient responsibility" amount for their claim</li>
+				<li>Users were unable to distinguish read and unread claims</li>
+				<li>Users found it difficult to distinguish claims that were and weren't important to them</li>
+				<li>Users thought the claim tiles were too large and cumbersome</li>
+				<li>Users were confused when their claims wouldn't show after a procedure or doctor visit</li>
+			</ul>
+
+			<img src="projects/claims-and-benefits-before.png">
+
+			<p>It became clear that the current design only added to users' confusion and frustrations with healthcare. After synthesizing the data, we identified objectives that would guide the project:</p>
+
+			<ul>
+				<li>Provide a better mental model for claims that matches user intuitions</li>
+				<li>Focus on accessibility - ease of use for all age groups, ADA compliance, etc.</li>
+				<li>Design for task completion - users should easily find and complete tasks related to their claims</li>
+				<li>Design for users with little understanding about healthcare</li>
+				<li>Direct users to helpful resources if they have issues with their claims</li>
+			</ul>
+
+		</div>
+
+		<div class="project-section">
+			<h2>Brainstorming</h2>
+			<p>We had our first brainstorming session in early July where the senior interaction designer of my team and I ideated ways that Blue Shield could better assist people with their claims. We guided the brainstorm by dividing our users into three large categories based on age and healthcare experience. Here are some personas that helped guide our design decisions for the initial prototype:</p>
+			<img src="projects/bsc-personas.png">
+
+		</div>
+
+		<div class="project-section">
+			<h2>First Iteration</h2>
+			<p>After whiteboarding a few different concepts and user flows, we converged on an expandable-card design. We made the decision to skip wireframes because of the project's time constraints. Here are the key design decisions we made when creating our testable prototype:</p>
+
+			<h4>Progressive disclosure</h4>
+			<p>Displaying features only as the user needs them simplifies their experience and helps them to immediately find claims that are important to them. We only displayed the most pertinent information in the non-expanded view: Date of Service and Patient Responsibility.</p>
+<!-- 			<img src="projects/claims-and-benefits-progressive.png">
+ --><!-- 
+			<p>A user could have a serious medical condition or medical emergency. In this use case, the user would have many claims to go through. Displaying features only as the user needs them would be helpful for users to immediately tell which claims are and aren't important. We achieved this by focusing on the most pertinent information first: <span style="font-weight: bold;">the date of service and the patient responsibility amount</span>.</p> -->
+
+			<h4>Better information hierarchy</h4>
+			<p>In order to increase the transparency between insurer, provider, and consumer, we created a financial breakdown in order for users to better understand how much they owe and where that amount comes from.</p>
+
+			<h4>Improved filter experience</h4>
+			<p>We moved the filter from its hidden default state to the left side bar of the screen and ordered the fields to match user behavior, improving availability and usability. We also displayed applied filters both in their original position and in an overview and allowed users to apply multiple filtering values at once.</p>
+
+			<h4>Pagination</h4>
+			<p>In certain cases, users may have a lot of claims. Seeing all these claims on a single page can be daunting and overwhelming. Pagination creates a more pleasant and simple experience, allowing users to easily search and find claims.</p>
+
+			<h4>Direct users to helpful resources</h4>
+			<p>We hoped to remove as much stress from the users. They are provided with relevant notes/instructions if there are any issues with their claims and will be notified if any action from member or provider side is needed.</p>
+
+			<img src="projects/claims-and-benefits-v1.png">
+
+		</div>
+
+		<div class="project-section">
+			<h2>Iterative User Tests</h2>
+			<p>After creating the initial screens, we wanted to get our designs in the hands of users ASAP. We quickly developed a clickable prototype using Invision, and recruited several users through Craiglist.</p>
+
+			<p>A few of the assumptions we planned to test were:</p>
+			<ul>
+				<li>The financial aspect of the claim is the user's primary concern</li>
+				<li>The date of service and patient responsibility are the two most important pieces of information to the user</li>
+				<li>Members are very selective when it comes to viewing their claim details</li>
+				<li>Members want to take action if their claims are pending for too long or are confused about the status of their claims</li>
+			</ul>
+
+			<p>Using these assumptions, I developed the tasks and script that would be used for our two rounds of testing. </p>
+			<img src="projects/claims-and-benefits-script.png">
+
+			<p>After each round of testing, we synthesized, prioritized, and incorporated feedback into our design changes.</p>
+			<img src="projects/claims-and-benefits-notes.png">
+
+			<p>Some important changes we incorporated into our second and final iterations were:</p>
+			<ul>
+				<li>Adding an "insurance responsibility" field: In testing, users were actually delighted to see how much costs Blue Shield covers for its members. The positive reinforcement and transparency made users feel that Blue Shield was taking good care of its members.</li>
+				<li>Adding the claim number: When users have questions about their claims and call Blue Shield help services, users are typically asked for the corresponding claim number(s). Adding this feature is meant to remove additional stress from the claims experience.</li>
+				<li>Adding doctor specialty: Often, users would want to look for claims based on their doctor's speciality. This feature made it much easier and quicker for users to find the claims they were looking for.</li>
+				<!-- <li>Remove "Apply Filter" button: Users expect filters to be applied immediately after being selected. During testing, users were confused that the screen didn't change when they selected a filter. </li> -->
+			</ul>
+		</div>
+
+		<div class="project-section">
+			<h2>Final Screens</h2>
+			<p>Here are the main screens that users will be interacting with most:</p>
+			<img src="projects/claims-and-benefits-final.png">
+			<p>In the last week of my internship, the designs were already being pushed to production and should be live within the upcoming month - a very exciting result for the project!</p>
+		</div>
+
+		<div class="footer">
+			<p>If you want to talk more about the project or any of my <a href="projects.html">other projects</a>, feel free to <a href="mailto:grant.kalasky@berkeley.edu">drop me a line</a>!</p>
+		</div>
+
+	</div>
+
+</body>
+</html>
