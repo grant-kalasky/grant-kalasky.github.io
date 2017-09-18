@@ -217,6 +217,12 @@ a {
 	-ms-transform: translate(-50%, -50%);
 }
 
+footer {
+	height: 100px;
+	position: absolute;
+	width: 100%;
+}
+
 /***************************
 		4. INDIVIDUAL PROJECT PAGES
 ***************************/
