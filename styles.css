@@ -160,7 +160,7 @@ a {
 .projects-header {
 /*	height: 100px;
 */	padding: 10px 80px 10px 80px;
-	margin: 0px 50px;
+	margin: 0;
 	text-align: left;
 	font-weight: medium;
 }
