@@ -1,0 +1,93 @@
+# Design Build Deploy
+# Info Synthesize
+# 5-23-18
+
+
+# Design page
+	
+	# Main objective
+	Make UI that is intuitive for nontechnical, external users
+
+	# Initial feedback
+	External users don't understand objects "design, build, deploy"
+		user goal: 'I want this thing I built to be sent to place X'
+
+
+	# Specifics
+
+	1. Layout/table 
+		Surface information that helps make users' jobs easier (i.e. Reach)
+
+		Give more intel about the designs -> make users feel good about being on the homepage
+
+		"Awkward that you have to go into different my design pages for proximity and audience" (Ellis)
+
+		give users a way to organize things, are there ways to associate designs with compaigns (Ellis)
+
+		Changes:
+			1. Navigation - make tabs match visual treatment of proximity v2
+
+	2. Statuses <- something more intuitive than 'build'
+		Goal: help users understand where their segment is going from an EXTERNAL perspective, make it seem like the process is super simple/streamlined
+
+		currently showing an "internal" representation of the state, not how the customer thinks about itSurf
+
+		statuses don't reflect what's happening with deployment (someone should log into their home and see the status of their designs) -> external should know if the design is: (1) building or (2) activated (Ellis)
+
+		Idea of a tracker similar to uber eats/postmates (Mike)
+
+
+	3. Actions
+		Goal: Make all actions clear/easy to understand for all users (esp. non-technical users)
+
+		a. Build (primary action)
+			"New clients don't realize they have to click 'Build'" (Matt K)
+			"people dont need to know that "build" is a thing - users typically dont conceptualize this correctly" (Mike)
+
+			"Users sometime don't request to build things and they dont know why it doesn't show up on the trade desk" (Ellis)
+
+			Where should build be developed? -> SHOWCASE INTEGRATIONS 
+				this is a big differentiator for factual <- how can we surface/highlight this to users, maybe logos?
+
+			Potentially make "select target" a mandatory action for a design to get built (Ellis)
+				Designs shouldn't sit in build state
+
+			orgs have pieces of metadata associated with them, would be helpful to have this info autopopulate fields when users click "build" (Ellis)
+
+			Should have two steps for users: (1) save design ("Deliver" or "Ship") and (2) ship to destination. If user wants to build, they can do that from admin (Alfred)
+
+
+		b. Editing designs
+			If user makes modifications to design, they need to reprocess and redeploy (this might need to be a change made in the designer itself rather than in the "my design" screen)
+
+			Could be simplified by idea of 'refresh' button <- need to make it clear to user that this action needs to be completed after modifying (e.g. before exiting editor, have dialogue to refresh and save changes)
+
+			Being able to edit the design name, targeting code and exchange of the duplicated designs without having to click into every design to do it (Elise) <- could take the form of a pencil icon and live in the corresponding cell to allow inline editing
+
+
+		c. Duplicate designs
+			See Elise's comment above in "Editing designs" section
+
+			use duplicate icon used in proximity v2??
+
+
+		d. Share designs
+
+		e. Create new design 
+
+			Current button is in top-right, next to search bar -> should be moved to a clearer place for users to find
+
+		f. Bulk actions (duplicate, build, etc.) INTERNAL
+
+			Have the ability to select multiple designs and click Build along with where to deploy 
+			Save hundreds of designs under one campagin, give functionality to "bulk" approach to organizing (Ellis)
+
+		g. Download
+			Potentially get rid of this feature (internal doesn't seem to use it and it's not shown for external users)
+
+		IDEA: Nest actions in a dropdown and use 3 dot icon instead to save space
+
+
+### Edge cases <- what are all of them?
+
+

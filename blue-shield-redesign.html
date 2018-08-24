@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Basic Page Needs
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<meta name="description" content="Product Designer and Manager, formerly doing design at Factual and Blue Shield of California">
+	<meta name="author" content>
+
+	<!-- Mobile Specific Metas
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/skeleton.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<!-- FONT
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500" rel="stylesheet">
+	<title>Grant Kalasky - Product Designer</title>
+</head>
+
+<body screen_capture_injected="true" style>
+	<script>
+		$(document).ready(function() {
+		    $("body").css("display", "none");
+		    $("body").fadeIn(150);
+		 
+		    $("a.transition").click(function(event){
+		        event.preventDefault();
+		        linkLocation = this.href;
+		        $("body").fadeOut(100, redirectPage);      
+		    });
+		         
+		    function redirectPage() {
+		        window.location = linkLocation;
+		    }
+		});
+	</script>
+
+	<div class="container">
+		<section class="header">
+			<div class="row" id="menu">
+				<div class="onecolumn" style="margin-top: 10%; margin-bottom: 10%;">
+					<ul class="navbar-list">
+						<li class="navbar-item">
+							<a class="transition, navbar-link" href="index.html" id="active">Work</a>
+						</li>
+						<li class="navbar-item">
+							<a class="transition, navbar-link" href="about.html" id="active">About</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="case-study-container row">
+				<h4 class="case-study-header">Claims and Benefits Redesign for Blue Shield</h4>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Overview</h6>
+					</div>
+					<div class="nine columns">
+						<p>During summer 2017, I interned at Blue Shield of California where I helped redesign an experience that allowed users to easily review their medical claims and learn about benefits they were eligible for.</p>
+						<p>I was on a small team that was attempting to define design’s role within a large, established company. The project was particularly interesting because it was my first time designing for users at a sizable scale (450k+ users!).</p>
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<img class="case-study-img" src="blue-shield/bs-banner.png">
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Team</h6>
+					</div>
+					<div class="team-section nine columns">
+						<p>Anahid Sargsyan (Design Lead)</p>
+						<p>Grant Kalasky (Designer)</p>
+					</div>
+				</div>
+				
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Challenge</h6>
+					</div>
+					<div class="nine columns">
+						<p>One of the most frustrating parts of the healthcare experience is paying medical bills. Trying to make sense of the information involved in medical payments is a frustrating and discouraging exercise, particularly for those who aren’t technically-savvy or are new to healthcare.</p>
+						<p>We hoped to bring clarity and simplicity to the Claims and Benefits experience through improvements to information architecture, readability, and more.</p>
+					</div>
+				</div>
+
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Gathering Feedback</h6>
+					</div>
+					<div class="nine columns">
+						<p>Before diving into ideation, we sat down and reviewed data and user feedback that was collected by the marketing and engineering teams. This review uncovered some key findings that would guide our design decisions:</p>
+						<ul>
+							<li>Users found it difficult to tell how much they owed for a claim and where that figure came from</li>
+							<li>Users were skeptical of the "patient responsibility" amount for their claim</li>
+							<li>Users were unable to distinguish read and unread claims</li>
+							<li>Users found it difficult to distinguish claims that were and weren't important to them</li>
+							<li>Users thought the claim tiles were too large and cumbersome</li>
+							<li>Users were confused when their claims wouldn't show after a procedure or doctor visit</li>
+							<img class="case-study-img" src="blue-shield/bs-user-feedback.png">
+							<p>Here's a more detailed view of the original claims design:</p>
+							<img class="case-study-img" src="blue-shield/bs-old-claims-screen-1.png">
+							<img class="case-study-img" src="blue-shield/bs-old-claims-screen-2.png">
+						</ul>
+					</div>
+				</div>
+
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Identifying Objectives</h6>
+					</div>
+					<div class="nine columns">
+						<p>It became clear that the current design only added to users' confusion and frustrations with healthcare. After synthesizing the data, we identified objectives that would guide the project:</p>
+						<ul>
+							<li>Provide a better mental model for claims that matches user intuitions</li>
+							<li>Focus on accessibility - ease of use for all age groups, ADA compliance, etc.</li>
+							<li>Design for task completion - users should easily find and complete tasks related to their claims</li>
+							<li>Design for users with little understanding about healthcare</li>
+							<li>Direct users to helpful resources if they have issues with their claims</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Personas</h6>
+					</div>
+					<div class="nine columns">
+						<p>We had our first brainstorming session in early July where we ideated ways that Blue Shield could better assist people with their claims. We guided the brainstorm by dividing our users into three large categories based on age and healthcare experience. Here are some personas that helped guide our design decisions for the initial prototype:</p>
+						<img class="case-study-img" src="blue-shield/bs-personas.png">
+					</div>
+				</div>
+
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Early Designs</h6>
+					</div>
+					<div class="nine columns">
+						<p style="font-weight: 600;">Progressive Disclosure</p>
+						<img class="case-study-img" src="blue-shield/bs-progressive-disclosure.png">
+						<p>Displaying features only as the user needs them simplifies their experience and helps them to immediately find claims that are important to them. We only displayed the most pertinent information in the non-expanded view: Date of Service and Patient Responsibility.</p>
+
+						<p style="font-weight: 600;">Better information hierarchy</p>
+						<img class="case-study-img" src="blue-shield/bs-info-hierarchy.png">
+						<p>In order to increase the transparency between insurer, provider, and consumer, we created a financial breakdown in order for users to better understand how much they owe and where that amount comes from.</p>
+
+						<p style="font-weight: 600;">Improved filter experience</p>
+						<img class="case-study-img" src="blue-shield/bs-filtering.png">
+						<p>We moved the filter from its hidden default state to the left side bar of the screen and ordered the fields to match user behavior, improving availability and usability. We also displayed applied filters both in their original position and in an overview and allowed users to apply multiple filtering values at once.</p>
+
+						<p style="font-weight: 600;">Direct users to helpful resources</p>
+						<p>We hoped to remove as much stress from the users. They are provided with relevant notes/instructions if there are any issues with their claims and will be notified if any action from member or provider side is needed.</p>
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Testing</h6>
+					</div>
+					<div class="nine columns">
+						<p>After creating the initial screens, we wanted to get our designs in the hands of users ASAP. We quickly developed a clickable prototype using Invision, and recruited several users through Craigslist.</p>
+						<p>A few of the assumptions we planned to test were:</p>
+						<ul>
+							<li>The financial aspect of the claim is the user's primary concern</li>
+							<li>The date of service and patient responsibility are the two most important pieces of information to the user</li>
+							<li>Members are very selective when it comes to viewing their claim details</li>
+							<li>Members want to take action if their claims are pending for too long or are confused about the status of their claims</li>
+						</ul>
+						<p>Using these assumptions, I developed the tasks and script that would be used for our two rounds of testing.</p>
+						<img class="case-study-img" src="blue-shield/bs-user-testing.png">
+					</div>
+				</div>
+
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Iterating</h6>
+					</div>
+					<div class="nine columns">
+						<p>After each round of testing, we synthesized, prioritized, and incorporated feedback into our design changes.</p>
+						<img class="case-study-img" src="blue-shield/bs-testing-notes.png">
+						<p>Some important changes we incorporated into our second and final iterations were:</p>
+						<ul>
+							<li>Adding an "insurance responsibility" field: In testing, users were actually delighted to see how much costs Blue Shield covers for its members. The positive reinforcement and transparency made users feel that Blue Shield was taking good care of its members.</li>
+							<li>Adding the claim number: When users have questions about their claims and call Blue Shield help services, users are typically asked for the corresponding claim number(s). Adding this feature is meant to remove additional stress from the claims experience.</li>
+							<li>Adding doctor specialty: Often, users would want to look for claims based on their doctor's speciality. This feature made it much easier and quicker for users to find the claims they were looking for.</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Final Screens</h6>
+					</div>
+					<div class="nine columns">
+						<p>These are the main screens that users will be interacting with most:</p>
+						<img class="case-study-img" src="blue-shield/bs-final-table.png">
+						<img class="case-study-img" src="blue-shield/bs-final-claim-expanded.png">
+						<img class="case-study-img" src="blue-shield/bs-final-resources.png">
+						<img class="case-study-img" src="blue-shield/bs-final-screens.png">
+						<p>In the last week of my internship, the designs were already being pushed to production and should be live within the upcoming month - a very exciting result for the project!</p>
+					</div>
+				</div>
+				
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Moving Forward</h6>
+					</div>
+					<div class="nine columns">
+						<p>It's important that, after shipping the redesign, Blue Shield measure the effectiveness of our new solutions. One crucial metric to observe is the number of users that we lose at each screen within the overall claims flow. Before, there was a 50% drop in users from the landing page to the details page. Reviewing this data would provide us with meaningful metrics that can help inform our future design decisions, particularly where to focus our efforts within the flow of screens.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+</body>
+</html>

@@ -1,118 +1,200 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>bungalo</title>
+	<!-- Basic Page Needs
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<meta name="description" content="Product Designer and Manager, formerly doing design at Factual and Blue Shield of California">
+	<meta name="author" content>
+
+	<!-- Mobile Specific Metas
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<link rel="icon" href="images/logo.png">
-	<link rel="stylesheet" href="styles.css">
-
-	<!-- Global Site Tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106718582-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments)};
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-106718582-1');
-	</script>
+	<!-- CSS
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/skeleton.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<!-- FONT
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500" rel="stylesheet">
+	<title>Grant Kalasky - Product Designer</title>
 </head>
-<body>
-	<!-- NAVIGATION BAR -->
-	<div class="mast-head">
-		<div class="mast-head-container">
-			<nav class="nav-list">
-				<ul>
-					<li><a href="projects.html">Projects</a></li>
-					<li><a href="index.html">About Me</a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
 
-	<div class="projects-banner">
-	<img src="projects/bungalo-banner-02.png">
-	</div>
+<body screen_capture_injected="true" style>
+	<script>
+		$(document).ready(function() {
+		    $("body").css("display", "none");
+		    $("body").fadeIn(150);
+		 
+		    $("a.transition").click(function(event){
+		        event.preventDefault();
+		        linkLocation = this.href;
+		        $("body").fadeOut(100, redirectPage);      
+		    });
+		         
+		    function redirectPage() {
+		        window.location = linkLocation;
+		    }
+		});
+	</script>
 
-	<div class="indv-project-container">
-		<h1>bungalo</h1>
-		<p>Co-founder/Product Lead, Jul 2017 - Current</p>
+	<div class="container">
+		<section class="header">
+			<div class="row" id="menu">
+				<div class="onecolumn" style="margin-top: 10%; margin-bottom: 10%;">
+					<ul class="navbar-list">
+						<li class="navbar-item">
+							<a class="transition, navbar-link" href="index.html" id="active">Work</a>
+						</li>
+						<li class="navbar-item">
+							<a class="transition, navbar-link" href="about.html" id="active">About</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="case-study-container row">
+				<h4 class="case-study-header">bungalo.io</h4>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Overview</h6>
+					</div>
+					<div class="nine columns">
+						<p>Each spring semester, the housing search brings about panic and stress amongst Cal students.</p>
+						<p>Currently, students must resort to inefficient and ineffective ways of searching for off-campus housing options, whether its renting for the school year or subletting their place during the summer. </p>
+						<p>One day at lunch, my friend, Sam Hayat, and I were venting about our frustrations with the same problem amidst exams and final project deadlines. We thought that there had to be a better solution.</p>
+						<p>From these frustrations came bungalo - a web platform with the aim of providing students with an simple and secure way to search for housing and subletters, as well as establishing trust in Berkeley’s college housing market. We are currently being incubated by <a href="http://www.freeventures.org/" target="_blank">Free Ventures</a> and <a href="https://thehouse.build/" target="_blank">The House</a>.</p>
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<img class="case-study-img" src="bungalo/bungalo-banner.png">
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Team</h6>
+					</div>
+					<div class="team-section nine columns">
+						<p>Sam Hayat (Co-founder, Business Lead)</p>
+						<p>Steven Truong (Frontend Engineer)</p>
+						<p>Evan Katz (Backend Engineer)</p>
+						<p>Grant Kalasky (Co-founder, Product Lead)</p>
+					</div>
+				</div>
+				
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Challenge</h6>
+					</div>
+					<div class="nine columns">
+						<p>Each spring semester, the inevitable search for off-campus housing rolls around. Unfortunately, there's no centralized place for students to look for their home for the next academic year. Students find themselves buried under countless Facebook posts, Craiglists ads, and Zillow listings. Once people do find housing, often options that are less than ideal, many have to frantically find subletters for the summer if they will be away. The process is messy and stressful to say the least. We wanted to change this.</p>
+						<p>We wanted our solution to address two main problems:</p>
+						<ol>
+							<li>Sublet opportunities are fragmented across several platforms, causing information discrepancies for listers and renters</li>
+							<li>Current platforms used for off-campus housing and subletting do not facilitate trust between listers and renters</li>
+						</ol>
+					</div>
+				</div>
 
-		<div class="project-section">
-			<p>Until now, Berkeley students have resorted to inefficient and ineffective means of searching for off-campus housing or subletters for their places during the summer. The latter half of each spring semester is characterized by panic and stressed students.</p>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Research</h6>
+					</div>
+					<div class="nine columns">
+						<p>We started by evaluating our target user demographic and began to define the product. We released a survey (which got over 150 responses within one week) and interviewed 10 friends with various housing and sublet experiences.</p>
+						<p>The survey validated some of our assumptions and also highlighted parts of the housing/sublet experience we hadn't thought about, particularly the group aspect of the housing search. This would later become a very important insight.</p>
+						<p>We hoped to initially capture college students (1) on campuses where off-campus housing was popular and (2) students with summer internships in large metropolitan areas.</p>
+					</div>
+				</div>
 
-			<p>One day at lunch, my good friend, Sam Hayat, and I were venting about our frustrations with the same problem amidst exams and final project deadlines. We thought that there had to be a better solution.</p>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Go-to-Market Strategy</h6>
+					</div>
+					<div class="nine columns">
+						<p>After lots of discussion with our advisor and venture capitalists we pitched to, we realized our go-to-market strategy was too broad. This would lead to similar problems other start-ups were experiencing in the college-housing space.</p>
+						<p>We had to focus heavily on our execution. This brought up some important questions, ones we'd spend a lot of time thinking about and discussing.</p>
+						<p class="block-quote">How do we develop a two-sided marketplace? What side of the market do we address first? Supply or Demand?</p>
+						<p>Drawing from strategies used by other consumer-facing products, we decided to tackle Supply. If we established a legitimate and valuable supply of listings, users who would land on our site for the first time would be more likely to use it. </p>
+						<p>We wanted to establish a great first impression with our users.</p>
+						<p>With this strategy, we decided to address the immediate UC Berkeley market for year-round housing. This would provide us with a descent amount of listings by mid-March. With established supply, we then planned to attack the summer-internship market in the Bay Area.</p>
+					</div>
+				</div>
 
-			<p>From these frustrations came bungalo - a web platform with the aim of providing students with an simple and secure way to search for housing and subletters, as well as establishing trust in Berkeley’s college housing market. We are currently being incubated by <a target="_blank" href="http://www.freeventures.org/">Free Ventures</a> and <a target="_blank" href="http://thehouse.build/">The House</a>.</p>
-		</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Defining the Product</h6>
+					</div>
+					<div class="nine columns">
+						<p>Once we got market validation, I wrote specs for the platform and sketched initial wireframes for our MVP. Throughout this process, I would refer back to notes from user interviews and survey responses to ensure the product was catered to user needs.</p>
+						<p>Our MVP addressed many pain points that characterize the current search-for-housing experience:</p>
+						<ul>
+							<li>Users can quickly search and filter listings based on specified criteria including amenities and property-type</li>
+							<li>Users can search for housing with friends and add listings to a shared “wishlist”</li>
+							<li>Users will be notified when new listings that fit their criteria are posted</li>
+						</ul>
+						<img class="case-study-img" src="bungalo/bungalo-specs.png">
+					</div>
+				</div>
 
-		<div class="project-section">
-			<h2>The Problem</h2>
-			<p>Each spring semester, the inevitable search for off-campus housing rolls around. Unfortunately, there's no centralized place for students to look for their home for the next academic year. Students find themselves buried under countless Facebook posts, Craiglists ads, and Zillow listings. Once people do find housing, often options that are less than ideal, many have to frantically find subletters for the summer if they will be away. The process is messy and stressful to say the least. We wanted to change this.</p>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Identifying Objectives</h6>
+					</div>
+					<div class="nine columns">
+						<p>Before jumping into designs, I put together a general user-flow to help me contextualize each screen and its relationship with the others. The user-flow focused on onboarding and 2 main user journeys: searching and listing.</p>
+						<img class="case-study-img" src="bungalo/bungalo-user-journey.png">
+						<img class="case-study-img" src="bungalo/bungalo-user-flow.png">
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Early Designs</h6>
+					</div>
+					<div class="nine columns">
+						<p>For the lo-fi wireframes of the MVP, I focused on onboarding, searching, and listing - interactions that would become the foundation for the platform. I spent more time on these wireframes than I typically would because perfecting these aspects of the MVP would be critical to the overall user experience for both use cases (listers and renters).</p>
+						<img class="case-study-img" src="bungalo/bungalo-lofi-wireframes.png">
+						<p>Soon after I put the wireframes together, I went on to design our marketing pages. Here are the "How it Works" pages for listers and guests:</p>
+						<img class="case-study-img" src="bungalo/bungalo-marketing-pages.png">
+					</div>
+				</div>
 
-			<p>We wanted our solution to address two main problems:</p>
-			<ol>
-				<li>Sublet opportunities are fragmented across several platforms, causing information discrepancies for listers and renters</li>
-				<li>Current platforms used for off-campus housing and subletting do not facilitate trust between listers and renters</li>
-			</ol>
-		</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Design Decisions</h6>
+					</div>
+					<div class="nine columns">
+						<p style="font-weight: 600;">Housing that Meets the User's Needs</p>
+						<img class="case-study-img" src="bungalo/bungalo-search.png">
+						<p>With current housing solutions, students are forced to scroll aimlessly through Newsfeeds or scammy posts on Craigslist. Often times, users are unable to find properties that meet their criteria and instead settle with less-than-ideal properties. We wanted to provide users with a simple and quick way to input their housing preferences, find a listing that meets their needs, and contact the lister. With our platform, the time to find housing shrinks from a few weeks to minutes.</p>
 
-		<div class="project-section">
-			<h2>User and Market Research</h2>
-			<p>We started by evaluating our target user demographic and began to define the product. We released a survey (which got over 150 responses within one week) and interviewed 10 friends with various housing and sublet experiences. The survey validated some of our assumptions and also pointed out parts of the housing/sublet experience we hadn't thought about, particularly the group aspect of searching for housing - this would later become a very important insight.</p>
+						<p style="font-weight: 600;">Search for Housing with Friends</p>
+						<img class="case-study-img" src="bungalo/bungalo-group-wishlist.png">
+						<p>Often, the housing search isn’t done alone. It’s a group effort. Currently, there’s no easy way for students to share listings with one another. Information is scattered and oftentimes lost. We wanted to provide a single place for groups to save their favorite listings, view, and vote on them. This became the Group Wishlist feature. Groups no longer have to tag each other in countless Facebook posts, or continue to send URLs in group-chats.</p>
 
-			<p>We initially focused on capturing college students (1) on campuses where off-campus housing was popular and (2) students with summer internships in large metropolitan areas.</p>
-		</div>
+						<p style="font-weight: 600;">Clear and Concise Information - Making the Housing Decision Easier</p>
+						<img class="case-study-img" src="bungalo/bungalo-listing.png">
+						<p>We wanted to provide the essential information needed to decide on housing, without overloading users with useless noise. At the same time, we hoped to bring the peace-of-mind users want when making such an important decision. To do so, we only presented the most important metadata associated with a property (e.g. property-type, bedrooms, bathrooms) in a standardized format. This allowed for better scanability and increased trust. This allowed users to focus more on making the right decision, rather than worry about searching for disparate pieces of information.</p>
 
-		<div class="project-section">
-			<h2>Defining the Product</h2>
-			<p>Once we got market validation, I started to write specs for the platform and began to sketch initial wireframes for the MVP. Throughout this process, I would refer back to notes from user interviews and survey responses to ensure the product was catered to user needs.</p>
+						<p style="font-weight: 600;">A Safe and Secure Experience</p>
+						<img class="case-study-img" src="bungalo/bungalo-sign-up.png">
+						<p>When using current methods to find housing, students often ran into scammy posts and untrustworthy people. We wanted to build trust and cultivate a transparent community marketplace. To do so, we required a .edu email to post listings on the site. We also had a dedicated number of people to check the site regularly for posts that seemed suspicious.</p>
+					</div>
+				</div>
+				
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Currently</h6>
+					</div>
+					<div class="nine columns">
+						<p>We are currently working hard on the MVP and plan to launch in late November - I'd love to chat more about bungalo in person or over the phone!</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-			<p>Our MVP addresses many pain points that characterize the current search-for-housing experience. First, users will be able to quickly search and filter listings based on user criteria including amenities and property type. Second, people can search for housing with friends and add listings to a shared “wishlist.” Third, users will get notified when new listings that fit their criteria are posted.</p>
-
-			<img src="projects/bungalo-specs.png">
-
-			<p>Features that would distinguish our platform from competitors:</p>
-			<ul>
-				<li>Better Filtering - Competitors’ filtering is minimal or nonexistent in main competitors Facebook and Craigslist. Our platform will have a comprehensive filtering system allowing for a better user experience.</li>
-				<li>Group Search - Competitors don’t allow users to share listings with one another or view favorite listings in one place. Searching for housing is typically a group effort, so catering to this need could drive engagement.</li>
-				<li>Better Informational Flow - Competitors don’t update users when new listings are posted or when they are no longer available. This information is very useful to renters, and we plan to have these features.</li>
-				<li>Trust & Accountability - Students have told us they’ve encountered scams and untrustworthy people on other platforms, particularly Craigslist. By requiring a .edu email to create a bungalo account and generating legally-binding contracts between parties, we will provide the accountability our users are looking for.</li>
-			</ul>
-		</div>
-
-		<div class="project-section">
-			<h2>Initial Designs</h2>
-			<p>Before jumping into designs, I put together a general user-flow to help me contextualize each screen and its relationship with the others. The user-flow focused on onboarding and 2 main user journeys: searching and listing.</p>
-
-			<img src="projects/bungalo-user-journey.png">
-
-			<img src="projects/bungalo-user-flow.png">
-
-			<p>I then put together lo-fi wireframes for the MVP. I focused on onboarding, searching, and listing - what would become the foundation for the platform. I spent more time on these wireframes than I typically would because perfecting these aspects of the MVP would be critical to the overall user experience for both use cases (listers and renters).</p>
-
-			<img src="projects/bungalo-lofi-wireframes.png">
-
-			<p>Soon after I put the wireframes together, I went on to design our marketing pages. Here are the "How it Works" pages for listers and guests:</p>
-
-			<img src="projects/bungalo-marketing-pages.png">
-
-			<!-- <p>For example, the "List Your Space" flow took up a significant amount of my time. A delightful listing experience would encourage users to list their space and recommend it to their friends. In the end, I chose a multi-page form rather than a single form. The latter appeared too long and intimidating for users I had shown the mockup to. The multi-page design broke up the listing experience into digestible chunks, making the experience simple and engaging. I also designed the experience so that users could come back to the form if they hadn't already completed it.</p> -->
-
-		</div>
-
-		<div class="project-section">
-			<h2>Currently</h2>
-
-<!-- 			<img src="projects/bungalo-screens.png">
- -->
-			<p>Here are some of the screens I'm working on now:</p>
-			<img src="projects/bungalo-work-flow.png">
-			<img src="projects/bungalo-search-results-screen.png">
-			<img src="projects/bungalo-listing-form.png">
-
-			<p>We are currently working hard on the MVP and plan to launch in late November - I'd love to chat more about bungalo in person or over the phone!</p>
-		</div>
 	</div>
 
 </body>

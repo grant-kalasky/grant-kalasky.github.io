@@ -1,61 +1,163 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta name="description" content="Grant Kalasky is a technical product designer and manager, currently studying Applied Math and Computer Science at UC Berkeley.">
-		<meta name="keywords" content="Grant Kalasky, Design, Berkeley, Product Design, Product Management">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Grant Kalasky</title>
-		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-		<link rel="stylesheet" href="styles.css">
-		<link rel="icon" href="images/logo.png">
-		
-		<!-- Global Site Tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106718582-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments)};
-		  gtag('js', new Date());
+<html lang="en">
 
-		  gtag('config', 'UA-106718582-1');
-		</script>
+<head>
+	<!-- Basic Page Needs
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<meta name="description" content="Product Designer and Manager, currently at Factual, formerly at Blue Shield">
+	<meta name="author" content>
 
-	</head>
-	<body>
-		<!-- NAVIGATION BAR -->
-		<div class="mast-head">
-			<div class="mast-head-container">
-				<nav class="nav-list">
-					
-					<ul class="nav-right">
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="index.html">About Me</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
+	<!-- Mobile Specific Metas
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/skeleton.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<!-- FONT
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500" rel="stylesheet">
+	<title>Grant Kalasky</title>
+</head>
 
-		<!-- HOMEPAGE CONTENT -->
-		<header id="homepage-header">
-			<div class="header-container">
-				<h1>Hi, I'm <span class="name">Grant</span>.</h1>
-				<p>I am a technical product designer and product manager residing in Berkeley, CA. I'm passionate about the intersection of design, technology, and social systems.</p>
-				<p>I'm currently working on <a target="_blank" href="http://www.bungalo.io/">bungalo</a>, a platform to connect housing listers and renters in college markets, incubated by <a target="_blank" href="http://www.freeventures.org/">Free Ventures</a> and <a target="_blank" href="http://thehouse.build/">The House</a>. Last summer, I interned at <a target="_blank" href="https://www.blueshieldca.com/">Blue Shield of California</a> as a product designer. Before that, I interned at <a target="_blank" href="http://dotlab.com/">Dot Labs</a> as a product design consultant and at <a target="_blank" href="https://www.biomarker.io/">Biomarker.io</a> as a frontend developer and marketing intern.</p>
-				<p>Outside of work and school, I'm an avid <a target="_blank" href="https://www.strava.com/athletes/4719472">cyclist</a>, 80s <a target="blank" href="https://open.spotify.com/user/grant_taylorrr">music enthusiast</a>, and film-fanatic. Drop me a line if you want to talk bikes, the Talking Heads, or design!</p>
-			
-				<div id="social-links">
-					<ul>
-						<li><a href="mailto:grant.kalasky@berkeley.edu">Email</a></li>
-						<li>|</li>
-<!-- 						<li><a target="_blank" href="resume/Grant-Kalasky-Resume.pdf">Resume</a></li>
-						<li>|</li> -->
-						<li><a target="_blank" href="https://www.linkedin.com/in/grantkalasky/">LinkedIn</a></li>
-						
+<body screen_capture_injected="true" style>
+	<script>
+		$(document).ready(function() {
+		    $("body").css("display", "none");
+		    $("body").fadeIn(150);
+		 
+		    $("a.transition").click(function(event){
+		        event.preventDefault();
+		        linkLocation = this.href;
+		        $("body").fadeOut(100, redirectPage);      
+		    });
+		         
+		    function redirectPage() {
+		        window.location = linkLocation;
+		    }
+		});
+	</script>
+
+	<div class="container">
+		<section class="header">
+			<div class="row" id="menu">
+				<div class="onecolumn" style="margin-top: 10%; margin-bottom: 10%;">
+					<ul class="navbar-list">
+						<li class="navbar-item">
+							<a class="transition, navbar-link" href="index.html" id="active">Work</a>
+						</li>
+						<li class="navbar-item">
+							<a class="transition, navbar-link" href="about.html" id="active">About</a>
+						</li>
 					</ul>
 				</div>
 			</div>
-		</header>
-		<footer></footer>
-	</body>
+			<div class="row">
+				<div class="onecolumn">
+					<h4>Product designer and manager. Previously at <a href="https://www.factual.com/" target="_blank">Factual</a> and <a href="https://www.blueshieldca.com/" target="_blank">Blue Shield</a>. Using design to better understand and answer the uncertanties around us.</h4>
+				</div>
+			</div>
+		</section>
 
-	
+		<div class="docs-section example" id="#home-entries">
+			<!-- Factual #1 -->
+			<div class="home-feature-container">
+				<div class="row example">
+					<a class="example-screenshot-wrapper" id="factual-img-1" href="factual-admin-redesign.html">
+						<img class="example-screenshot" src="admin/portfolio-assets/admin-thumbnail.png">
+					</a>
+					<div class="one-half offset-by-one-half column">
+						<br>
+						<br>
+						<h4 class="example-header">
+							<span id="heading">Admin Redesign</span>
+							<span id="heading2">for Factual</span>
+						</h4>
+						<p>
+							<span id="subheading">Jul 2018 / Web</span>
+						</p>
+						<p>While at Factual as a product design intern, I redesigned an internal tool that lets Factual outbound teams manage clients' marketing campaigns from end to end.</p>
+						<a href="factual-admin-redesign.html">Read more</a>
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+			<!-- Factual #2 -->
+			<div class="home-feature-container">
+				<div class="row example">
+					<a class="example-screenshot-wrapper" href="factual-design-build-deploy.html">
+						<img class="example-screenshot" src="DBD/portfolio%20assets/dbd-thumbnail.png">
+					</a>
+					<div class="one-half offset-by-one-half column">
+						<br>
+						<br>
+						<h4 class="example-header">
+							<span id="heading">Design Build Deploy</span>
+							<span id="heading2">for Factual</span>
+						</h4>
+						<p>
+							<span id="subheading">Jun 2018 / Web</span>
+						</p>
+						<p>While at Factual as a product design intern, I redesigned an interface that lets users manage, deploy, and share their marketing campaigns.</p>
+						<a href="factual-design-build-deploy.html">Read more</a>
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+			<!-- bungalo.io -->
+			<div class="home-feature-container">
+				<div class="row example">
+					<a class="example-screenshot-wrapper" href="bungalo.html">
+						<img class="example-screenshot" src="bungalo/bungalo-thumbnail.png">
+					</a>
+					<div class="one-half offset-by-one-half column">
+						<br>
+						<br>
+						<h4 class="example-header">
+							<span id="heading">bungalo.io</span>
+						</h4>
+						<p>
+							<span id="subheading">Jul 2017 / Startup</span>
+						</p>
+						<p>A web platform with the aim of providing students with an simple and secure way to search for housing and subletters, as well as establish trust in Berkeley’s college housing market. Incubated by Free Ventures.</p>
+						<a href="bungalo.html">Read more</a>
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+			
+			<div class="home-feature-container">
+				<div class="row example">
+					<a class="example-screenshot-wrapper" href="blue-shield-redesign.html">
+						<img class="example-screenshot" src="blue-shield/bs-thumbnail.png">
+					</a>
+					<div class="one-half offset-by-one-half column">
+						<br>
+						<br>
+						<h4 class="example-header">
+							<span id="heading">Claims and Benefits Redesign</span>
+							<span id="heading2">for Blue Shield</span>
+						</h4>
+						<p>
+							<span id="subheading">Jul 2017 / Web</span>
+						</p>
+						<p>While at Blue Shield as a product design intern, I redesigned an interface that let Blue Shield members manage their medical claims and discover benefits they were eligible for.</p>
+						<a href="blue-shield-redesign.html">Read more</a>
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
 </html>

@@ -1,0 +1,40 @@
+# Meeting Notes 
+# Matt Kellogg
+# 5-23-18
+
+# Notes
+
+Click build -> open modal 
+	information is optional, personally don't check the text box information (more for self-served clients)
+
+Frustrations:
+1. cant select multiple designs and send them all at once
+2. build out a segment and need to duplicate and share it to a different account (NEED: batch selection and actions -> this is more internal though, would have to be strict bc of permissions)
+
+No activate button for deployment manager tab of Admin section
+
+Client questions/commencts/concerns:
+- for new clients, they don't realize they have to click "Build"
+- if someone edits a design, they dont know they have to reprocess it and redeploy (clicking build again)
+
+when building out segments, unless they have an exchange name, we don't know what 
+
+have a huge location list, and are unable to calc reach so we don't know how large the segment will be unless it's fully built (file size, not device count)
+	1. 
+	2. huge segment allows teams to make tweaks, meet DSP needs better
+
+Download feature isn't used that often (idk if clients see this)
+
+
+
+Questions
+
+Q: Can you tell me about your role?
+
+	A: Partners services team, Delivery Manager
+	Work with agencies to build segments, troubleshoot
+
+Q: Sorting? Search?
+
+	A: Sorting isn't super hepful, able to accomplish
+	Search autofilters -> this is a good feature

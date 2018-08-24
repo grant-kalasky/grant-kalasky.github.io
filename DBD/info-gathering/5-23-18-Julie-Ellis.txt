@@ -1,0 +1,84 @@
+# Meeting Notes 
+# Julie Ellis - Partners Experience
+# 5-23-18
+
+# Notes
+
+Workflow:
+Design -> Build -> Request deploy -> Activate
+  |
+  v
+Save
+  |
+  v
+My designs
+  |
+  v
+Hit Build
+
+
+1. Save -> comeout of page they're on which is a complpete waste, more actions make it more likely to lose a user
+	suggestion: maybe allow someone to just hit build rather than save
+
+2. Pieces of metadata associated with an org -> would be great to have this saved
+	suggestion: shift "my designs" an incorporate more of a profile
+	autopopulate when you hit build
+	'i know you' - makes user feel nice
+
+3. My Design 
+	this should be a home for all that shit
+	awkward that you have to go into different my design pages for proximity and audience
+	give more intel about the designs -> make users feel good about being in their "homepage"
+
+4. Build + Request Deploy
+	Currently: design can sit in "built state" - it's not making money here, useless for factual
+	If you select your target, it will put design in request deployment state
+
+
+
+5. Activate (this action exists in the deployment UI - 2 other UIs here)
+
+
+6. Autodeploy/autoactivate
+	Target - define preferenes to autodeploy certain designs (e.g. designs under 200mb get autodeployed)
+
+
+Personal frustrations:
+	- target (DSP) should always be selected - segments shouldn't sit in build state -> factual isn't making any money here
+	- requrie target for any designs to be built
+
+	- statuses don't reflect what's happening with deployment (someone should log into their home and see the status of their designs) -> external should know if the design is: (1) building or (2) activated
+
+	- Users sometime don't request to build things and they dont know why it doesn't show up on the trade desk
+
+Statuses: stay in "building" until it's "activated" -> make users think that this process is super simple
+
+
+# Questions
+
+Q: What ways do you interact with this UI differently than someone like Matt (a delivery manager)?
+
+	A: Workflow isn't super different
+
+Q: What information associated with segments would be most helpful to see first? We're thinking about 
+(# of places, # of device IDs, showing what's more inside the design)
+
+	A: Reach probably, somewhere to see "store information" (kind of like a profile)
+
+	For "my orgs", maybe showing most popular designs, designs making the most money
+
+	Tie revenue into this somewhere 
+
+	THINK: give users a way to organize things, are there ways to associate designs with compaigns
+
+	Save hundreds of designs under one campagin, give functionality to "bulk" approach to organizing
+
+	Look into things that give you a "homey" feeling
+	in terms of ad tech, think about it in terms of campaings too
+
+	give users information/stuff to take action
+
+
+Actions:
+1. Talk to Mike about non-onprime examples
+

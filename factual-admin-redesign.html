@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Basic Page Needs
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<meta name="description" content="Product Designer and Manager, formerly doing design at Factual and Blue Shield of California">
+	<meta name="author" content>
+
+	<!-- Mobile Specific Metas
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/skeleton.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<!-- FONT
+  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500" rel="stylesheet">
+	<title>Grant Kalasky - Product Designer</title>
+</head>
+
+<body screen_capture_injected="true" style>
+	<script>
+		$(document).ready(function() {
+		    $("body").css("display", "none");
+		    $("body").fadeIn(150);
+		 
+		    $("a.transition").click(function(event){
+		        event.preventDefault();
+		        linkLocation = this.href;
+		        $("body").fadeOut(100, redirectPage);      
+		    });
+		         
+		    function redirectPage() {
+		        window.location = linkLocation;
+		    }
+		});
+	</script>
+
+	<div class="container">
+		<section class="header">
+			<div class="row" id="menu">
+				<div class="onecolumn" style="margin-top: 10%; margin-bottom: 10%;">
+					<ul class="navbar-list">
+						<li class="navbar-item">
+							<a class="transition, navbar-link" href="index.html" id="active">Work</a>
+						</li>
+						<li class="navbar-item">
+							<a class="transition, navbar-link" href="about.html" id="active">About</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="case-study-container row">
+				<h4 class="case-study-header">Admin Redesign for Factual</h4>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Overview</h6>
+					</div>
+					<div class="nine columns">
+						<p>During summer 2018, I interned at Factual where I was the design lead for a redesign of an internal tool called Admin. We focused on the Geopulse Designs page that let Factual’s outbound teams manage clients’ marketing campaigns throughout their lifecycles. We designed features that significantly sped up campaign launch time, improved information accessibility, and reduced the number of touch points from 6 to 1.</p>
+						<p>This project was interesting in that we were designing solutions only for power-users. This brought about a unique and complex set of challenges. Through the project, we learned to embrace the complexity of the problem rather than simplify it.</p>
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<img class="case-study-img" src="admin/portfolio-assets/admin-cover-photo.png">
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Team</h6>
+					</div>
+					<div class="team-section nine columns">
+						<p>Matt Inouye (Product Manager)</p>
+						<p>Sarah Kim (Front Engineer)</p>
+						<p>Enyu Hsu (Front Engineer)</p>
+						<p>Lawrence Yong (Designer)</p>
+						<p>Grant Kalasky (Design Lead)</p>
+					</div>
+				</div>
+				
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Challenge</h6>
+					</div>
+					<div class="nine columns">
+						<p>Think of Admin as a control tower where Factual teams manage all customer-facing UIs and systems. Admin was initially created by a few PMs and engineers to better handle customer-facing systems. This included design management, user account creation and permissions, reports, and more. When Admin was first built, design was an afterthought. It was a quick solution that served the immediate needs of Factual teams.</p>
+						<p>As Factual began to scale, however, problems with Admin became clearer. The system had poor usability, information discovery was challenging, and managing clients became inefficient. Thus, we were tasked with redesigning Admin.</p>
+						<img class="case-study-img" src="admin/portfolio-assets/old-admin.png">
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Refining Scope</h6>
+					</div>
+					<div class="nine columns">
+						<p>Upon starting this project, the initial scope was undefined. We thought it would be helpful to get a better understanding of the complexities of Admin before moving forward. It didn’t make sense, nor was it feasible, to tackle a redesign of the whole system. However, understanding all of its pieces allowed us to focus on areas that required the most work and were most impactful. After conducting a UI audit and talking to Factual internal teams that used the interface, there was a clear need to redesign the “Designs” pages under the Geopulse section of Admin.</p>
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Embracing Complexity</h6>
+					</div>
+					<div class="nine columns">
+						<p>With a more specified scope, we scheduled meetings with internal users across various teams in order to understand the inner-workings of Admin, specifically the workflow of delivering designs through the UI. Through these individual interviews, we learned that the workflow was extremely complex, rife with user frustrations. But that meant a lot of exciting design work!</p>
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Interview Insights</h6>
+					</div>
+					<div class="nine columns">
+						<p style="font-weight: 600;">Too many touch points</p>
+						<p>Currently, Factual teams use 4 interfaces to manage and deliver marketing campaigns. They also have to log in to different accounts for the various clients they’re managing in order to take certain actions. This results in a lot of time spent navigating between different UIs, logging into and out of accounts, etc. rather than time spent launching campaigns.</p>
+
+						<p style="font-weight: 600;">Inefficient delivery process</p>
+						<img class="case-study-img" src="admin/portfolio-assets/inefficient-delivery.gif">
+						<p>To launch a client’s marketing campaign, a Factual member has to click into each design’s “details” page in order to select the data service provider (DSP) and enter additional information needed to deliver the campaign. This becomes extremely inefficient with campaigns that contain a lot of designs. </p>
+
+						<p style="font-weight: 600;">Lagging campaign information</p>
+						<img class="case-study-img" src="admin/portfolio-assets/lagging-campaign-info.gif">
+						<p>A common frustration across teams using this tool was the inability to stay up-to-date with campaigns they were managing. This included relevant status information and design-level errors that might block campaigns. It was also difficult for users to tell at-a-glance what campaigns needed immediate attention.</p>
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Identifying Objectives</h6>
+					</div>
+					<div class="nine columns">
+						<p>From these interviews, we were able to identify main user objectives for the different teams that interfaced with this tool most frequently:</p>
+						<img class="case-study-img" src="admin/portfolio-assets/user-goals.png">
+						<p>While we had a good idea of the current user-flow, we invited members from the Product, Partner Services, and Front team to discuss how they interact with this piece of Admin. We booked a room for the afternoon and documented the intricacies of delivering campaigns through the current UI. This included touch points, customer actions, partner services’ actions, sales engineering actions, email notifications, and more.</p>
+						<img class="case-study-img" src="admin/portfolio-assets/team-discussion.jpg">
+						<p>From this meeting, we were confident in our understanding of this complex system:</p>
+						<img class="case-study-img" src="admin/portfolio-assets/complex-userflow.png">
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Ideation</h6>
+					</div>
+					<div class="nine columns">
+						<p>We then held a brainstorming session with members from the same teams. We hoped this would surface interesting and diverse solutions that we as designers might not be able to see. We posed the meeting as a design task in order to encourage more active participation and discussion of ideas.</p>
+						<p>Participants were asked to put themselves in the shoes of a member of the Partner Services team. The task was to come up with a more efficient way to manage designs in Admin for a big marketing campaign.</p>
+						<p>To help with ideation, we posed some guiding questions like: How might we find designs more easily? How might we keep design deployment in one place? How might we make troubleshooting designs quicker/easier? After sketching our ideas, we discussed our solutions:</p>
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<img class="case-study-img-thirds" src="admin/portfolio-assets/brainstorming-1.jpg">
+					<img class="case-study-img-thirds" src="admin/portfolio-assets/brainstorming-2.jpg">
+					<img class="case-study-img-thirds" src="admin/portfolio-assets/brainstorming-3.jpg">
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Metrics of Success</h6>
+					</div>
+					<div class="nine columns">
+						<p>Before jumping into designs, we wanted to survey all internal users to: (1) obtain metrics by which we could measure the success of the redesign, and (2) distill what information was important to completing users’ workflows.</p>
+						<p>From the survey, we defined 3 key metrics to focus on:
+							<ul>
+								<li>Increase user satisfaction score for Admin Geopulse Design UI from 65% to 100%</li>
+								<li>Decrease the number of manual touch-points required for managing self-service campaigns from 6 to 1</li>
+								<li>Decrease time to delivery by 30%</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Early Designs</h6>
+					</div>
+					<div class="nine columns">
+						<p>With a more holistic understanding of Admin and some good ideas from the brainstorming session, we put together some mid-fidelity designs. Each solution emphasized a particular use-case but seemed to lack the impact we were hoping for.</p>
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<img class="case-study-img" src="admin/portfolio-assets/early-designs.png">
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6></h6>
+					</div>
+					<div class="nine columns">
+						<p>We eventually landed on a design that we were comfortable with showing to internal users. During the early iterations of the project, we asked for open-ended, high-level feedback about the layout and information hierarchy. During the second feedback session, a user’s comments struck a chord with me and helped me break through a creative block I was having.</p>
+						<img class="case-study-img" src="admin/portfolio-assets/early-designs-2.png">
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Design for Efficiency</h6>
+					</div>
+					<div class="nine columns">
+						<p>With two rounds of feedback completed, the overarching goal of the project became clear: efficiency.</p>
+						<p class="block-quote">We want to empower internal users to get the most out of the time they spend in admin.</p>
+						<p>Designing for quick and easy task completion became our highest priority. With this in mind, I went to the whiteboard to sketch out a more efficient workflow. I wanted to focus on the 3 main tasks users would want to complete while in this part of Admin: Deployment, Troubleshooting, and Updating designs. It became clear that we should be optimizing for bulk actions.</p>
+						<img class="case-study-img" src="admin/portfolio-assets/new-userflow.jpg">
+					</div>
+				</div>
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Design Decisions</h6>
+					</div>
+					<div class="nine columns">
+						<p style="font-weight: 600;">Fast context switching</p>
+						<img class="case-study-img" src="admin/portfolio-assets/context-switching.gif">
+						<p>In order to optimize for bulk actions, we wanted to provide users an easy way to “jump to” any one of the main workflows within this part of Admin. Context-switching becomes really important when dealing with multiple campaigns for various clients. This feature allows users to quickly dive into a particular context, bulk select all designs associated with the campaign, and take action on them.</p>
+
+						<p style="font-weight: 600;">Deliver entire campaigns, not individual designs</p>
+						<img class="case-study-img" src="admin/portfolio-assets/bulk-action.gif">
+						<p>In conjunction with fast context switching, we wanted to provide users with an additional mechanism to further refine their searches, find all designs associated with a campaign, and take action on them. We designed quick and intuitive ways to query or filter designs that matched users’ mental models of how they categorized designs. This way, users can jump into a certain context, refine the table results to a specific campaign, select all designs, and take action. This is far more efficient than clicking into each design and delivering them individually.</p>
+
+						<p style="font-weight: 600;">Improved information hierarchy</p>
+						<img class="case-study-img" src="admin/portfolio-assets/design-details.png">
+						<p>The previous “Design Details” page made it difficult to find relevant information about designs while in different statuses. Now, users can see a design’s entire history including its deployment, the latest build, previous build cycles, and more. Rather than surface all information about a design upfront, we provide it in a more contextually relevant way that improves readability and accessibility.</p>
+
+						<p style="font-weight: 600;">Troubleshooting, made easier</p>
+						<img class="case-study-img" src="admin/portfolio-assets/troubleshooting.png">
+						<p>Before the redesign, teams would spend a significant amount of time troubleshooting designs. This was largely because there was no information surfaced about the type of error or how to resolve them if they were common issues. We surfaced Vineyard links (internal system that logs design errors) within the table rows, rather that hide them in the design details page. In the design details page, we created alerts that would notify users of: (1) the type of error and (2) how to resolve it. We also used these design decisions to make the email notification system more helpful and informative.</p>
+					</div>
+				</div>
+				
+				<div class="design-content-row row">
+					<div class="three columns">
+						<h6>Takeaways</h6>
+					</div>
+					<div class="nine columns">
+						<p>One of the biggest lessons I learned while working on this project was the importance of embracing complexity rather than simply abstract it away. We were able to deal with a very complex process, take time to understand its nuances, and make a much better experience.</p>
+						<p>Another important lesson I learned was the value of putting yourself in the user’s shoes. While this might be a trite idea in the design community, it was very helpful to deeply understand their workflow in order to uncover influential ideas early on.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+</body>
+</html>
